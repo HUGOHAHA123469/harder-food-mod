@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "harder_food",
+  "version": "1.0.0",
+  "name": "HarderFood",
+  "description": "Maakt eten moeilijker te verkrijgen.",
+  "authors": ["Jij"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["nl.harderFood.HarderFoodMod"]
+  },
+  "mixins": ["harder_food.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
